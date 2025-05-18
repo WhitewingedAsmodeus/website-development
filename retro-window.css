@@ -1,0 +1,60 @@
+/* retro-window.css */
+
+.retro-window {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+  border: 4px solid #222;
+  background: #ccc;
+  font-family: 'Courier New', monospace;
+  box-shadow: 2px 2px 0 #000;
+  user-select: none;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.titlebar {
+  background: #444;
+  color: white;
+  padding: 5px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.titlebar .buttons button {
+  background: #666;
+  border: none;
+  margin-left: 5px;
+  width: 20px;
+  height: 20px;
+  font-weight: bold;
+  color: #222;
+  cursor: pointer;
+  user-select: none;
+}
+
+.content {
+  flex-grow: 1;
+  background: white;
+  overflow: auto;
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Resize handle */
+.resize-handle {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background: #444;
+  right: 0;
+  bottom: 0;
+  cursor: se-resize;
+  user-select: none;
+}
