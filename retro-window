@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Retro Window Test</title>
+  <link rel="stylesheet" href="retro-window.css" />
+</head>
+<body>
+
+  <retro-window title="Skynet Browser">
+    <iframe src="https://pierrepapierciseaux.net/.skynet/?q=a&lang=en" style="width:100%; height:100%; border:none;"></iframe>
+  </retro-window>
+
+  <script src="retro-window.js"></script>
+
+</body>
+</html>
